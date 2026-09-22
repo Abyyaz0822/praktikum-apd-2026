@@ -1,0 +1,46 @@
+# 1.Membuat variabel komponen
+komponen_1 = 120000
+komponen_2 = 135000
+komponen_3 = 150000
+komponen_4 = 175000
+komponen_5 = 200000
+komponen_6 = 220000
+# Menggunakan list
+harga_komponen = [komponen_1, komponen_2, komponen_3, komponen_4, komponen_5, komponen_6]
+
+biaya_administrasi = 15000
+
+# 2.Menghitung total biaya
+total_biaya = komponen_1 + komponen_2 + komponen_3 + komponen_4 + komponen_5 + komponen_6 + biaya_administrasi
+
+# 3.Menghitung rata_rata
+rata_rata = total_biaya / 6
+
+# 4.Buat variabel NIM
+nim = 80
+
+# 5.Buat variabel BOLEAN
+bolean = nim != rata_rata
+
+#Konverensikan ke mata uang pound sterling (GBP)
+kurs_gbp = 21000
+total_gbp = total_biaya / kurs_gbp
+
+#Menampilkan komponen 1-4 dengan meode slice index negatif
+komponen_1_sampai_4 = harga_komponen[-6:-2]
+
+# 6.Menampilkan semua variable menggunakan print
+print("Komponen 1 =", komponen_1)
+print("Komponen 2 =", komponen_2)
+print("Komponen 3 =", komponen_3)
+print("Komponen 4 =", komponen_4)
+print("Komponen 5 =", komponen_5)
+print("Komponen 6 =", komponen_6)
+print("Biaya Administrasi =", biaya_administrasi)
+print("Total Biaya =", total_biaya)
+print("Rata-rata =", rata_rata)
+print("NIM =", nim)
+print("Boolean =", bolean)
+print("List harga komponen =", harga_komponen)
+print("Komponen 1-4 =", komponen_1_sampai_4)
+print("Total dalam GBP =", total_gbp)
