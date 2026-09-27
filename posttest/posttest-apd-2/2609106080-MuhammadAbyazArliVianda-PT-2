@@ -5,7 +5,7 @@ komponen_3 = 150000
 komponen_4 = 175000
 komponen_5 = 200000
 komponen_6 = 220000
-# Menggunakan list
+# Me
 harga_komponen = [komponen_1, komponen_2, komponen_3, komponen_4, komponen_5, komponen_6]
 
 biaya_administrasi = 15000
