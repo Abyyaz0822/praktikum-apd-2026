@@ -18,6 +18,7 @@
 #print("Pilihan")
 #import prettytable
 
-import random
+#import random
 # Menghasilkan satu bilangan bulat acak dari 1 sampai 5 (inklusif)
-print(random.randint(1, 5))
+#print(random.randint(1, 5))
+
